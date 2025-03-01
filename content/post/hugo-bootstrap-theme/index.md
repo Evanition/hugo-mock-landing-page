@@ -18,14 +18,14 @@ Open-source MIT Licensed Hugo Theme, using Bootstrap 5.
 
 - 🛡️ Security aware
 
-  Get A+ scores on Mozilla Observatory out of the box. Easily change the default Security Headers to suit your needs.
+  As a frequent traveler with friends, I want to easily split expenses for accommodations, food, and activities, so I don’t have to manually track and calculate who owes what.
 
 - ⚡ Fast by default
 
-  Get 100 scores on Google Lighthouse by default. Hugo Bootstrap Theme removes unused css, prefetches links, and lazy loads images.
+  As a restaurant-goer, I want to scan a receipt and assign items to individuals, so that each person only pays for what they ordered, including tax and tip.
 
 - 📈 SEO-ready
 
-  Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the Search Engine Optimization settings to your liking.
+  As a roommate sharing rent and utilities, I want to set up automatic recurring expense splits, so that we can fairly distribute monthly bills without constant manual calculations.
 
 Check the [GitHub repository](https://github.com/filipecarneiro/hugo-bootstrap-theme) for the release notes.

@@ -1,61 +1,91 @@
 .home {
-    --bd-purple: #4c0bce;
-    --bd-violet: #712cf9;
-    --bd-accent: #ffe484;
-    --bd-violet-rgb: 112.520718,44.062154,249.437846;
-    --bd-accent-rgb: 255,228,132;
-    --bd-pink-rgb: 214,51,132;
+  /* Updated color variables */
+  --bd-blue: #0d6efd;       /* primary blue */
+  --bd-teal: #20c997;       /* primary teal */
+  --bd-accent: #ffc107;     /* accent color (e.g., yellow-ish) */
+  --bd-blue-rgb: 13, 110, 253;
+  --bd-teal-rgb: 32, 201, 151;
+  --bd-accent-rgb: 255, 193, 7;
+  --bd-pink-rgb: 214, 51, 132; /* keep if you still want pink somewhere */
 
-    .bd-masthead {
-        padding: 3rem 0;
-        background-image: linear-gradient(180deg, rgba(var(--bs-body-bg-rgb), 0.01), rgba(var(--bs-body-bg-rgb), 1) 85%),radial-gradient(ellipse at top left, rgba(var(--bs-primary-rgb), 0.5), transparent 50%),radial-gradient(ellipse at top right, rgba(var(--bd-accent-rgb), 0.5), transparent 50%),radial-gradient(ellipse at center right, rgba(var(--bd-violet-rgb), 0.5), transparent 50%),radial-gradient(ellipse at center left, rgba(var(--bd-pink-rgb), 0.5), transparent 50%);
-    }
+  .bd-masthead {
+    padding: 3rem 0;
+    background-image: 
+      /* Subtle gradient from body background to ensure consistency */
+      linear-gradient(
+        180deg,
+        rgba(var(--bs-body-bg-rgb), 0.01), 
+        rgba(var(--bs-body-bg-rgb), 1) 85%
+      ),
+      /* Radial gradients using your new color variables */
+      radial-gradient(ellipse at top left, rgba(var(--bd-blue-rgb), 0.4), transparent 50%),
+      radial-gradient(ellipse at top right, rgba(var(--bd-accent-rgb), 0.4), transparent 50%),
+      radial-gradient(ellipse at center right, rgba(var(--bd-teal-rgb), 0.4), transparent 50%),
+      radial-gradient(ellipse at center left, rgba(var(--bd-pink-rgb), 0.4), transparent 50%);
+  }
 
-    .btn-bd-primary {
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet);
-        --bs-btn-border-color: var(--bd-violet);
-        --bs-btn-border-radius: .5rem;
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-    }
+  .btn-bd-primary {
+    /* Updated primary button styles */
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-teal);
+    --bs-btn-border-color: var(--bd-teal);
+    --bs-btn-border-radius: 0.5rem;
+
+    --bs-btn-hover-color: var(--bs-white);
+    /* Darken the teal on hover */
+    --bs-btn-hover-bg: #17a185;
+    --bs-btn-hover-border-color: #17a185;
+
+    /* Box-shadow or focus styles remain, just replace the old rgb variable */
+    --bs-btn-focus-shadow-rgb: var(--bd-teal-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    /* Even darker teal on active */
+    --bs-btn-active-bg: #148978;
+    --bs-btn-active-border-color: #148978;
+  }
 }
 
 .navbar {
-    @extend .navbar-dark;
+  /* You can keep using navbar-dark or switch to navbar-light if it suits your color scheme better */
+  @extend .navbar-dark;
 
-    --bd-violet-rgb: 112.520718,44.062154,249.437846;
-    
-    padding: .75rem 0;
-    background-color: transparent;
-    background-image: linear-gradient(to bottom, rgba(var(--bd-violet-rgb), 1), rgba(var(--bd-violet-rgb), 0.95));
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15),inset 0 -1px 0 rgba(0,0,0,0.15);
+  /* Updated teal/blue gradient for navbar */
+  --bd-teal-rgb: 32,201,151;
+  
+  padding: 0.75rem 0;
+  background-color: transparent;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(var(--bd-teal-rgb), 1), 
+    rgba(var(--bd-teal-rgb), 0.95)
+  );
+  box-shadow: 
+    0 0.5rem 1rem rgba(0,0,0,0.15),
+    inset 0 -1px 0 rgba(0,0,0,0.15);
 }
 
-.text-violet {
-    color: #6528e0;
+/* If you want a text color using the new palette */
+.text-teal {
+  color: #20c997;
 }
 
+/* For the card hover effect */
 .list {
-    .card {
-        transition: transform 0.2s ease-in-out;
-
-        &:hover {
-            transform: scale(1.01);
-        }
-    }
-}
-
-.navbar-brand {
+  .card {
     transition: transform 0.2s ease-in-out;
 
     &:hover {
-        transform: rotate(-2deg) scale(1.1);
+      transform: scale(1.01);
     }
+  }
+}
+
+/* Navbar-brand hover effect */
+.navbar-brand {
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: rotate(-2deg) scale(1.1);
+  }
 }
