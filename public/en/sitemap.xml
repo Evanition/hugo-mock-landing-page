@@ -2,74 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/hugo-mock-landing-page/authors/</loc>
+    <loc>https://evanition.github.io/hugo-mock-landing-page/authors/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="http://localhost:1313/hugo-mock-landing-page/pt/authors/"
+                href="https://evanition.github.io/hugo-mock-landing-page/pt/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/hugo-mock-landing-page/authors/"
+                href="https://evanition.github.io/hugo-mock-landing-page/authors/"
                 />
   </url><url>
-    <loc>http://localhost:1313/hugo-mock-landing-page/</loc>
+    <loc>https://evanition.github.io/hugo-mock-landing-page/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="http://localhost:1313/hugo-mock-landing-page/pt/"
+                href="https://evanition.github.io/hugo-mock-landing-page/pt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/hugo-mock-landing-page/"
+                href="https://evanition.github.io/hugo-mock-landing-page/"
                 />
   </url><url>
-    <loc>http://localhost:1313/hugo-mock-landing-page/categories/</loc>
+    <loc>https://evanition.github.io/hugo-mock-landing-page/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="http://localhost:1313/hugo-mock-landing-page/pt/categories/"
+                href="https://evanition.github.io/hugo-mock-landing-page/pt/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/hugo-mock-landing-page/categories/"
+                href="https://evanition.github.io/hugo-mock-landing-page/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/hugo-mock-landing-page/series/</loc>
+    <loc>https://evanition.github.io/hugo-mock-landing-page/series/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="http://localhost:1313/hugo-mock-landing-page/pt/series/"
+                href="https://evanition.github.io/hugo-mock-landing-page/pt/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/hugo-mock-landing-page/series/"
+                href="https://evanition.github.io/hugo-mock-landing-page/series/"
                 />
   </url><url>
-    <loc>http://localhost:1313/hugo-mock-landing-page/tags/</loc>
+    <loc>https://evanition.github.io/hugo-mock-landing-page/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="http://localhost:1313/hugo-mock-landing-page/pt/tags/"
+                href="https://evanition.github.io/hugo-mock-landing-page/pt/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/hugo-mock-landing-page/tags/"
+                href="https://evanition.github.io/hugo-mock-landing-page/tags/"
                 />
   </url>
 </urlset>
