@@ -2,74 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/authors/</loc>
+    <loc>http://localhost:1313/hugo-bootstrap-theme/pt/authors/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/authors/"
+                href="http://localhost:1313/hugo-bootstrap-theme/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/authors/"
+                href="http://localhost:1313/hugo-bootstrap-theme/pt/authors/"
                 />
   </url><url>
-    <loc>https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/</loc>
+    <loc>http://localhost:1313/hugo-bootstrap-theme/pt/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/"
+                href="http://localhost:1313/hugo-bootstrap-theme/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/"
+                href="http://localhost:1313/hugo-bootstrap-theme/pt/"
                 />
   </url><url>
-    <loc>https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/categories/</loc>
+    <loc>http://localhost:1313/hugo-bootstrap-theme/pt/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/categories/"
+                href="http://localhost:1313/hugo-bootstrap-theme/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/categories/"
+                href="http://localhost:1313/hugo-bootstrap-theme/pt/categories/"
                 />
   </url><url>
-    <loc>https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/series/</loc>
+    <loc>http://localhost:1313/hugo-bootstrap-theme/pt/series/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/series/"
+                href="http://localhost:1313/hugo-bootstrap-theme/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/series/"
+                href="http://localhost:1313/hugo-bootstrap-theme/pt/series/"
                 />
   </url><url>
-    <loc>https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/tags/</loc>
+    <loc>http://localhost:1313/hugo-bootstrap-theme/pt/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/"
+                href="http://localhost:1313/hugo-bootstrap-theme/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-PT"
-                href="https://filipecarneiro.github.io/hugo-bootstrap-theme/pt/tags/"
+                href="http://localhost:1313/hugo-bootstrap-theme/pt/tags/"
                 />
   </url>
 </urlset>
